@@ -13,7 +13,7 @@ public class OrderFulfillmentControllerTest {
 
         controller.facade=new OrderServiceFacade();
 
-        controller.orderProduct(9);
+        controller.orderProduct(18);
 
         boolean result=controller.orderFulfilled;
 
